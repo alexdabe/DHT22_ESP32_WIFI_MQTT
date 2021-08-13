@@ -8,4 +8,5 @@ Mesure de température et d'humidité avec sonde DHT22, envoi des donnees par wi
 - Le code flows.json doit etre importé dans NODE RED sur un ordinateur en reseau. 
   Les adresses IP doivent etre adaptées ainsi que le chemin d'accès au fichier csv de sauvegarde des données.
   Ce code est écrit pour la réception de données de 2 sondes DHT22 cablées sur 2 ESP32: esp1 et esp2.
+- La lecture du fichier csv peut etre réalisée avec microsoft excel ou à l'aide du programme python   
 
