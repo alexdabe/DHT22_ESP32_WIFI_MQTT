@@ -28,12 +28,12 @@
 // Update these with values suitable for your network.
 const int LED=2;
 
-// const char* ssid = "VOO-024802";
-// const char* password = "CCPVEBNR";
+// const char* ssid = "*******";
+// const char* password = "********";
 // const char* mqtt_server = "192.168.0.26";
 
 const char* ssid = "raspi-webgui";
-const char* password = "Dlfrugc/1";
+const char* password = "********";
 const char* mqtt_server = "10.3.141.1";
 
 WiFiClient espClient;
