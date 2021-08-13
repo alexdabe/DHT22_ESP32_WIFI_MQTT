@@ -28,13 +28,9 @@
 // Update these with values suitable for your network.
 const int LED=2;
 
-// const char* ssid = "*******";
-// const char* password = "********";
-// const char* mqtt_server = "192.168.0.26";
-
-const char* ssid = "raspi-webgui";
-const char* password = "********";
-const char* mqtt_server = "10.3.141.1";
+const char* ssid = "raspi-webgui";  // adresse wifi
+const char* password = "********";  // mot de passage du reseau wifi
+const char* mqtt_server = "10.3.141.1";  //adresse du serveur mqtt
 
 WiFiClient espClient;
 PubSubClient client(espClient);
