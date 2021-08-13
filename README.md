@@ -1,6 +1,6 @@
 # DHT22_ESP32_WIFI_MQTT
 Mesure de température et d'humidité avec sonde DHT22, envoi des donnees par wifi avec un ESP32 sur MQTT
-- Le code mqtt_esp1_M01.ino doit etre charge dans un module ESP32.
+- Le code mqtt_esp1_M00.ino doit etre charge dans un module ESP32.
   Je l'utilise sur des modules ESP32 DEV KIT WROOM.
 - Le réseau wifi est généré par un raspberry Pi exécutant le programme RaspAp. 
   Pour l'installation de RaspAp voir https://www.framboise314.fr/raspap-creez-votre-hotspot-wifi-avec-un-raspberry-pi-de-facon-express/
